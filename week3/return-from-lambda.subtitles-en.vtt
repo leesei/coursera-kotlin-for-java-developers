@@ -63,7 +63,7 @@ discuss the details.
 14
 00:00:31.095 --> 00:00:34.185
 The options are; a list
-of [inaudible] results,
+of list int results,
 
 15
 00:00:34.185 --> 00:00:37.800
@@ -112,7 +112,7 @@ from a function marked with fun.
 
 25
 00:01:03.525 --> 00:01:06.425
-That sound sink you may
+That's somthing you may
 consider as a rule.
 
 26
@@ -171,7 +171,7 @@ for loop to foreach,
 
 37
 00:01:44.235 --> 00:01:46.970
-then you can't expect that
+then you kind of expect that
 
 38
 00:01:46.970 --> 00:01:50.840
@@ -203,12 +203,12 @@ from the lambda.
 44
 00:02:02.300 --> 00:02:06.845
 That explains the motivation
-of white box like this.
+of why it works like this.
 
 45
 00:02:06.845 --> 00:02:11.060
 A lot of functions in Kotlin
-like for each behave like
+like foreach behave like
 
 46
 00:02:11.060 --> 00:02:13.715
@@ -223,16 +223,16 @@ construct experience.
 48
 00:02:17.570 --> 00:02:22.640
 What can you do if you need
-to return from and lambda?
+to return from a lambda?
 
 49
 00:02:22.640 --> 00:02:26.565
-You can use the labels
-returns syntax.
+You can use the labelled
+return syntax.
 
 50
 00:02:26.565 --> 00:02:29.330
-Here, the label return will
+Here, the labeled return will
 
 51
 00:02:29.330 --> 00:02:32.330
@@ -260,21 +260,21 @@ any label name put it right
 56
 00:02:44.270 --> 00:02:46.835
 before the lambda
-followed by add sine.
+followed by @ sign.
 
 57
 00:02:46.835 --> 00:02:49.010
 Here we provided
-the customer name
+the custom name
 
 58
 00:02:49.010 --> 00:02:51.740
-just L to label the Lambda.
+just L to label the lambda.
 
 59
 00:02:51.740 --> 00:02:56.190
 You then use this name
-in a labeled Return.
+in a labeled return.
 
 60
 00:02:56.390 --> 00:02:58.740
@@ -287,12 +287,12 @@ implementation uses labels,
 
 62
 00:03:01.845 --> 00:03:04.650
-each returns, what do we expect?
+it returns what we expect
 
 63
 00:03:04.650 --> 00:03:09.570
-The flattened least of
-duplicated known zero numbers.
+The flattened list of
+duplicated non zero numbers.
 
 64
 00:03:09.860 --> 00:03:13.465
@@ -324,7 +324,7 @@ the local function
 
 70
 00:03:25.000 --> 00:03:28.190
-marked with the pond keyboard.
+marked with the fun keyboard.
 
 71
 00:03:28.280 --> 00:03:30.805
@@ -361,12 +361,11 @@ In essence, it's simply
 78
 00:03:46.720 --> 00:03:48.920
 an alternative syntax
-for lambdas,.
+for lambdas.
 
 79
 00:03:48.920 --> 00:03:50.890
-They're under
-the hood implementation
+The under the hood implementation
 
 80
 00:03:50.890 --> 00:03:53.105
@@ -379,7 +378,7 @@ an anonymous function,
 
 82
 00:03:56.770 --> 00:03:59.840
-and the only difference
+the only difference
 is syntactic.
 
 83
@@ -394,7 +393,7 @@ marked with the fun keyword.
 
 85
 00:04:06.755 --> 00:04:10.370
-What's more you can specify
+What's more, you can specify
 the return type for
 
 86
@@ -423,8 +422,8 @@ One more question to you.
 
 91
 00:04:29.600 --> 00:04:32.779
-What do you think
-does label to return
+What do you think,
+does labeled return
 
 92
 00:04:32.779 --> 00:04:34.610
@@ -437,7 +436,7 @@ inside for loop?
 
 94
 00:04:37.595 --> 00:04:39.845
-There are tensors continuum.
+The right answer is continue.
 
 95
 00:04:39.845 --> 00:04:43.370
@@ -468,7 +467,7 @@ doesn't stop the whole loop.
 
 101
 00:04:56.250 --> 00:05:01.605
-Note that the angular turn
+Note that the regular return
 doesn't correspond to break.
 
 102
@@ -477,7 +476,7 @@ They are the same only if
 
 103
 00:05:03.780 --> 00:05:05.825
-the flourish iteration
+the foreach iteration
 of for loop
 
 104
@@ -491,7 +490,7 @@ Otherwise, they differ in whether
 
 106
 00:05:10.820 --> 00:05:13.970
-this statement is following
+the statement is following
 right afterword are called.
 
 107
@@ -506,7 +505,7 @@ the for loop iteration.
 
 109
 00:05:21.005 --> 00:05:25.235
-There is no direct analogs
+There is no direct analogy
 to break other than
 
 110
@@ -517,7 +516,7 @@ to a separate function.
 111
 00:05:29.690 --> 00:05:32.735
 This explanation of how
-those return inside
+to use return inside
 
 112
 00:05:32.735 --> 00:05:34.730
@@ -538,11 +537,11 @@ we'll return to the topic of
 116
 00:05:39.005 --> 00:05:41.480
 operations on collections
-and discussed in
+and discuss
 
 117
 00:05:41.480 --> 00:05:43.430
-lining and the difference
+inlining and the difference
 
 118
 00:05:43.430 --> 00:05:45.740
@@ -555,7 +554,7 @@ Our next module we'll focus on
 120
 00:05:48.095 --> 00:05:50.300
 object-oriented
-programming in cotton
+programming in Kotlin
 
 121
 00:05:50.300 --> 00:05:53.940
